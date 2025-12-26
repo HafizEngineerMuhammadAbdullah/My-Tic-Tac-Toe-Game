@@ -1,0 +1,93 @@
+/* Reset Default Space */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Body */
+body {
+  background-color: #548687;
+  text-align: center;
+}
+
+/* For Container */
+div.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* For Game */
+div.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+/* For Box */
+button.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  background-color: #ffffc7;
+}
+
+/* Set the color for O */
+.set-color-O {
+  color: yellow;
+}
+
+/* Set the color for X */
+.set-color-X {
+  color: aqua;
+}
+
+/* For Reset button &  New Button  */
+#reset-btn,
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+}
+/* for Score Board */
+div.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  gap: 5rem;
+}
+/* for user-score & computer-score */
+#player1-score,
+#player2-score {
+  font-size: 4rem;
+}
+/* For Message paragraph */
+#msg {
+  font-size: 5vmin;
+}
+
+/* For Message container */
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* for hide the message container */
+.hide {
+  display: none;
+}
